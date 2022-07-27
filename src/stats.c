@@ -28,7 +28,7 @@
 #include "stats.h"
 
 
-
+double *HARMONICSUMS_CACHED;
 #define BUFFLEN 100
 
 /* compute harmonic sum see Fu equation (4) */
