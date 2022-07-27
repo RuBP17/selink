@@ -58,6 +58,6 @@ void Neutrality_test_precomputation (unsigned int n, int w1,  int w2,
 double Neutrality_test(unsigned int *xi, unsigned long n, double *W, double alpha,
 		       double beta, double theta, double theta2);
 
-double *HARMONICSUMS_CACHED;
+extern double *HARMONICSUMS_CACHED;
 
 #endif
